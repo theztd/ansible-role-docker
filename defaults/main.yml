@@ -6,7 +6,7 @@ docker_package_state: present
 
 # Docker daemon settings (generates /etc/docker/daemon.json)
 # docker_daemon_settings:
-# root-dir: "/data/"
+#   data-root: "/data/"
 
 # Service options.
 docker_service_state: started
